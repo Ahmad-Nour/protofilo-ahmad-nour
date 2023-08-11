@@ -1,0 +1,23 @@
+.homeContainer {
+    display: flex;
+    justify-content: space-between; 
+  }
+  
+  .imageContainer {
+    width: 40%;
+    padding: 0;
+  }
+  
+  .programmerImage {
+    border-radius: 100%;
+    width: 80%; 
+    height: 90%;
+  }
+  
+  .textContainer {
+    padding-top: 70px;
+    width: 60%;
+    text-align: center;
+    color: #6E07F3;
+    font-weight: semi-bold; 
+  }
