@@ -1,0 +1,106 @@
+// Mixins
+@mixin transition($props...) {
+    transition: $props;
+}
+
+@mixin animate($name, $duration) {
+    animation: $name $duration ease infinite alternate;
+}
+
+.contact {
+    background-color: #F6F0ED;
+    display: flex;
+    justify-content: space-between;
+
+    .left {
+        width: 50%;
+        padding: 0;
+    }
+
+    .right {
+        position: relative;
+      }
+      
+      .helloImg {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+       
+    }
+}
+
+.profile-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    a {
+        color: #775B80;
+        margin: 0.5rem;
+        @include transition(all 0.3s);
+
+        &:hover {
+            @include animate(rubberBand, 1s);
+        }
+    }
+
+    svg {
+        font-size: 4rem;
+    }
+}
+
+// Message form
+.message-form {
+    padding: 2rem;
+    border-radius: 0.5rem;
+    width: 500px;
+    max-width: 100%;
+
+    .message-input {
+        width: 100%;
+        padding: 0.5rem;
+        font-size: 1.2rem;
+    }
+
+    .submit-button {
+        margin-top: 1rem;
+        padding: 0.7rem 1.2rem;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+
+        @include transition(transform);
+
+    }
+}
+
+// Animations 
+@keyframes rubberBand {
+    0% {
+        transform: scale3d(1, 1, 1);
+    }
+
+    30% {
+        transform: scale3d(1.25, 0.75, 1);
+    }
+
+    40% {
+        transform: scale3d(0.75, 1.25, 1);
+    }
+
+    50% {
+        transform: scale3d(1.15, 0.85, 1);
+    }
+
+    65% {
+        transform: scale3d(.95, 1.05, 1);
+    }
+
+    75% {
+        transform: scale3d(1.05, .95, 1);
+    }
+
+    100% {
+        transform: scale3d(1, 1, 1);
+    }
+}
