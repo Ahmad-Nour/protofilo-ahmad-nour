@@ -10,10 +10,12 @@ import {
 import About from "../about/about.component";
 import Home from "../home/home.component";
 import Technologies from "../technologies/technologies.component";
+import Projects from "../projects/projects.componesnts";
 
 const NavBar = () => {
     const aboutRef = useRef(null);
     const technologiesRef = useRef(null);
+    const projectsRef = useRef(null);
     return (
         <Fragment>
             <NavbarContainer>
@@ -23,7 +25,7 @@ const NavBar = () => {
                 <NavLinks>
                     <NavLink to="#" onClick={() => aboutRef.current.scrollIntoView()}>About</NavLink>
                     <NavLink to="#" onClick={() => technologiesRef.current.scrollIntoView()}>Technologies</NavLink>
-                    <NavLink to='/'>Projects</NavLink>
+                    <NavLink to="#" onClick={() => projectsRef.current.scrollIntoView()}>Projects</NavLink>
                     <NavLink to='/'>Articles</NavLink>
                     <NavLink to='/'>Hello, Ahmad Nour!</NavLink>
                 </NavLinks>
@@ -35,6 +37,9 @@ const NavBar = () => {
 
             <div ref={technologiesRef}>
                 <Technologies />
+            </div>
+            <div ref={projectsRef}>
+                <Projects />
             </div>
         </Fragment>
     );
