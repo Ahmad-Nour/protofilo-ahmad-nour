@@ -5,43 +5,43 @@ export const techImages = [
     },
     {
         name: 'Java',
-        percent:90
+        percent:80
     },
     {
         name: 'JavaScript',
-        percent:90
+        percent:70
     },
     {
         name: 'TypeScript',
-        percent:90
+        percent:75
     },
     {
         name: 'Python',
-        percent:90
+        percent:30
     },
     {
         name: 'ReactJS',
-        percent:90
+        percent:60
     },
     {
         name: 'React Native',
-        percent:90
+        percent:60
     },
     {
         name: 'Node.js',
-        percent:90
+        percent:25
     },
     {
         name: 'Angular',
-        percent:90
+        percent:65
     },
     {
         name: 'ASP.NET',
-        percent:90
+        percent:93
     },
     {
         name: 'C/C++',
-        percent:90
+        percent:40
     },
     {
         name: 'SQL',
@@ -53,7 +53,7 @@ export const techImages = [
     },
     {
         name: 'Git',
-        percent:90
+        percent:95
     },
     {
         name: 'Problem Solving',
@@ -61,22 +61,22 @@ export const techImages = [
     },
     {
         name: 'Algorithm and Data Structure',
-        percent:90
+        percent:85
     },
     {
         name: 'Linux',
-        percent:90
+        percent:75
     },
     {
         name: 'Networking',
-        percent:90
+        percent:60
     },
     {
         name: 'Server Management',
-        percent:90
+        percent:55
     },
     {
         name: 'Azure',
-        percent:90
+        percent:73
     }
 ];

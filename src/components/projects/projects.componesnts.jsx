@@ -14,7 +14,7 @@ const Projects = () => {
                     <div
                         className="project"
                         style={{
-                            backgroundImage: `linear-gradient(rgba(0, 0, 100, 0.6), rgba(0, 0, 100, 0.9)), url(${project.image})`,
+                            backgroundImage: `linear-gradient(rgba(100, 100, 200, 0.6), rgba(100, 100, 200, 0.9)), url(${project.image})`,
                             backgroundSize: 'cover',
                             backgroundPosition: 'center',
 
@@ -36,7 +36,7 @@ const Projects = () => {
                         <div className="members">
                             {project.members} Members
                         </div>
-                        <p>Associated with: {project.associatedWith}</p>
+                        <p>Associated with: {project.association.associatedWith}</p>
 
                     </div>
                 ))}

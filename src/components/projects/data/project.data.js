@@ -9,7 +9,11 @@ export const ProjectsData = [
         tech: ['ASP Web API', 'C#', 'Angular', 'TypeScript'],
         members: 2,
         url: 'https://www.youtube.com/watch?v=MBLbR1m5Kas&t=19s',
-        associatedWith: 'Al-Baath University'
+        association: {
+            associatedWith: 'Al-Baath University',
+            link: ''
+
+        }
     },
     {
         name: 'Syrian Medicine',
@@ -18,7 +22,10 @@ export const ProjectsData = [
         tech: ['ASP Web API', 'C#', 'Angular', 'TypeScript'],
         members: 3,
         url: 'https://project1.com',
-        associatedWith: 'Al-Baath University'
+        association: {
+            associatedWith: 'Al-Baath University',
+            link: ''
+        }
     },
     {
         name: 'Monster Cats',
@@ -27,7 +34,10 @@ export const ProjectsData = [
         tech: ['ReactJS', 'Node', 'MongoDB'],
         members: 1,
         url: 'https://project1.com',
-        associatedWith: 'Self Training'
+        association: {
+            associatedWith: 'Self Training',
+            link: ''
+        }
     },
     {
         name: 'Ktateb',
@@ -36,7 +46,10 @@ export const ProjectsData = [
         tech: ['React', 'Node', 'MongoDB'],
         members: 4,
         url: 'https://project1.com',
-        associatedWith: 'Self Training'
+        association: {
+            associatedWith: 'Self Training',
+            link: ''
+        }
     },
     {
         name: 'New Media Academy',
@@ -45,7 +58,10 @@ export const ProjectsData = [
         tech: ['React', 'Node', 'MongoDB'],
         members: 4,
         url: 'https://project1.com',
-        associatedWith: 'TabTabGo Company'
+        association: {
+            aassociatedWith: 'TabTabGo Company',
+            link: ''
+        }
     },
     {
         name: 'Bolignet',
@@ -54,7 +70,10 @@ export const ProjectsData = [
         tech: ['React', 'Node', 'MongoDB'],
         members: 4,
         url: 'https://project1.com',
-        associatedWith: 'TabTabGo Company'
+        association: {
+            aassociatedWith: 'TabTabGo Company',
+            link: ''
+        }
     },
     {
         name: 'EPMi',
@@ -63,7 +82,10 @@ export const ProjectsData = [
         tech: ['React', 'Node', 'MongoDB'],
         members: 4,
         url: 'https://project1.com',
-        associatedWith: 'TabTabGo Company'
+        association: {
+            aassociatedWith: 'TabTabGo Company',
+            link: ''
+        }
     },
     {
         name: 'NIMAS',
@@ -72,7 +94,10 @@ export const ProjectsData = [
         tech: ['React', 'Node', 'MongoDB'],
         members: 4,
         url: 'https://project1.com',
-        associatedWith: 'Nimas Company'
+        association: {
+            associatedWith: 'Nimas Company',
+            link: ''
+        }
     },
     {
         name: 'Helium',
@@ -81,7 +106,10 @@ export const ProjectsData = [
         tech: ['React', 'Node', 'MongoDB'],
         members: 4,
         url: 'https://project1.com',
-        associatedWith: 'Nimas Company'
+        association: {
+            associatedWith: 'Nimas Company',
+            link: ''
+        }
     },
     ,
     {
@@ -91,7 +119,10 @@ export const ProjectsData = [
         tech: ['ReactJS', 'Node', 'MongoDB'],
         members: 1,
         url: 'https://project1.com',
-        associatedWith: 'Self Training'
+        association: {
+            associatedWith: 'Self Training',
+            link: ''
+        }
     },
     {
         name: 'Nour Program',
@@ -100,6 +131,9 @@ export const ProjectsData = [
         tech: ['React', 'Node', 'MongoDB'],
         members: 4,
         url: 'https://project1.com',
-        associatedWith: 'FreeLance'
+        association: {
+            associatedWith: 'FreeLance',
+            link: ''
+        }
     },
 ];

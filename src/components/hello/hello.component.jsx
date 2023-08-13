@@ -23,15 +23,18 @@ const Hello = () => {
                     <a href="mailto:youremail@gmail.com"><FaGoogle /></a>
                     <a href="tel:+1234567890"><FaPhone /></a>
                 </div>
-
-                <form onSubmit={handleSubmit} className='message-form '>
-                    <textarea
-                        className='message-input'
-                        value={message}
-                        onChange={e => setMessage(e.target.value)}
-                    />
-                    <button className='submit-button' type="submit">Send Message</button>
-                </form>
+                <div>
+                    I like to read your messages, if you have any
+                    <form onSubmit={handleSubmit} className='message-form '>
+                        <input className='message-input' type='email' placeholder='your email' />
+                        <textarea
+                            className='message-input'
+                            value={message}
+                            onChange={e => setMessage(e.target.value)}
+                        />
+                        <button className='submit-button' type="submit">Send Message</button>
+                    </form>
+                </div>
             </div>
             <div className='right'>
                 <img className="helloImg" src={helloGif} />
