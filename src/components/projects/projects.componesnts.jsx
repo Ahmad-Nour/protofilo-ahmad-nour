@@ -14,7 +14,7 @@ const Projects = () => {
                     <div
                         className="project"
                         style={{
-                            backgroundImage: `linear-gradient(rgba(100, 100, 200, 0.6), rgba(100, 100, 200, 0.9)), url(${project.image})`,
+                            backgroundImage: `linear-gradient(rgba(100, 100, 200, 0.8), rgba(100, 100, 200, 0.9)), url(${project.image})`,
                             backgroundSize: 'cover',
                             backgroundPosition: 'center',
 
