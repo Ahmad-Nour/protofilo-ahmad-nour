@@ -8,24 +8,26 @@
 }
 
 .contact {
-    background-color: #F6F0ED;
+    background-color: #8686860d;
     display: flex;
     justify-content: space-between;
 
     .left {
-        width: 50%;
         padding: 0;
+        left: 0;
+        position: relative;
+
     }
 
     .right {
         position: relative;
-      }
-      
-      .helloImg {
+    }
+
+    .helloImg {
         position: absolute;
         right: 0;
         bottom: 0;
-       
+        height: 90%
     }
 }
 
@@ -33,6 +35,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 15px;
 
     a {
         color: #002938;
@@ -45,34 +48,49 @@
     }
 
     svg {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 }
 
-// Message form
-.message-form {
-    padding: 2rem;
-    border-radius: 0.5rem;
-    width: 500px;
-    max-width: 100%;
+.formContainer {
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
 
-    .message-input {
-        width: 100%;
-        padding: 0.5rem;
-        font-size: 1.2rem;
-    }
+    // Message form
+    .message-form {
+        padding: 2rem;  
+        width: 500px;
+        max-width: 100%;
+        margin-left: 50px;
 
-    .submit-button {
-        margin-top: 1rem;
-        padding: 0.7rem 1.2rem;
-        color: #fff;
-        border: none;
-        cursor: pointer;
+        .email-input {
+            width: 100%;
+            margin: 5px;
+            padding: 10px;
+            font-size: 1.2rem;
 
-        @include transition(transform);
+        }
 
+        .message-input {
+            margin: 5px;
+            width: 100%;
+            padding: 10px;
+            font-size: 1.2rem;
+        }
+
+
+        .submit-button {
+            margin: 5px;
+            padding: 0.7rem 1.2rem;
+            color: #fff;
+            cursor: pointer;
+            background-color: #002938;
+            @include transition(transform);
+        }
     }
 }
+
 
 // Animations 
 @keyframes rubberBand {

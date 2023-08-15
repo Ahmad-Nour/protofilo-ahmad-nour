@@ -34,8 +34,9 @@ const Projects = () => {
                         </div>
 
                         <div className="members">
-                            {project.members} Members
+                            {`${project.members} ${project.members == 1 ? 'Member' : 'Members'}`}
                         </div>
+                        <p>Status: {project.status}</p>
                         <p>Associated with: {project.association.associatedWith}</p>
 
                     </div>

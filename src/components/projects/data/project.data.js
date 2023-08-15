@@ -12,7 +12,8 @@ export const ProjectsData = [
         association: {
             associatedWith: 'TabTabGo Company',
             link: ''
-        }
+        },
+        status: 'Almost Done'
     },
     {
         name: 'EPMi',
@@ -24,7 +25,8 @@ export const ProjectsData = [
         association: {
             associatedWith: 'TabTabGo Company',
             link: ''
-        }
+        },
+        status: 'Almost Done'
     },
     {
         name: 'Bolignet',
@@ -36,7 +38,8 @@ export const ProjectsData = [
         association: {
             associatedWith: 'TabTabGo Company',
             link: ''
-        }
+        },
+        status: 'Done'
     },
     {
         name: 'NIMAS',
@@ -48,7 +51,8 @@ export const ProjectsData = [
         association: {
             associatedWith: 'Nimas Company',
             link: ''
-        }
+        },
+        status: 'Done'
     },
     {
         name: 'Syrian Medicine',
@@ -60,7 +64,8 @@ export const ProjectsData = [
         association: {
             associatedWith: 'Al-Baath University',
             link: ''
-        }
+        },
+        status: 'Done'
     },
     {
         name: 'Ktateb',
@@ -72,7 +77,8 @@ export const ProjectsData = [
         association: {
             associatedWith: 'Self Training',
             link: ''
-        }
+        },
+        status: 'In Progress'
     },
     {
         name: 'Monster Cats',
@@ -84,7 +90,8 @@ export const ProjectsData = [
         association: {
             associatedWith: 'Self Training',
             link: ''
-        }
+        },
+        status: 'Done'
     },
     {
         name: 'Online Shop',
@@ -97,7 +104,21 @@ export const ProjectsData = [
             associatedWith: 'Al-Baath University',
             link: ''
 
-        }
+        },
+        status: 'Done'
+    },
+    {
+        name: 'React Clothes',
+        image: '/images/project1.png',
+        description: 'online store to buy and sell clothes.',
+        tech: ['ReactJS', 'Firebase', 'GraphQL', 'SASS', 'Stripe', 'CSSInJS', 'Netlify', 'Reducers', 'Redux', 'Git'],
+        members: 1,
+        url: 'https://project1.com',
+        association: {
+            associatedWith: 'Self Training',
+            link: ''
+        },
+        status: 'In Progress'
     },
     {
         name: 'Helium',
@@ -109,20 +130,8 @@ export const ProjectsData = [
         association: {
             associatedWith: 'Nimas Company',
             link: ''
-        }
-    },
-    ,
-    {
-        name: 'React Clothes',
-        image: '/images/project1.png',
-        description: 'online store to buy and sell clothes.',
-        tech: ['ReactJS', 'Firebase', 'GraphQL', 'SASS', 'Stripe', 'CSSInJS', 'Netlify', 'Reducers', 'Redux', 'Git'],
-        members: 1,
-        url: 'https://project1.com',
-        association: {
-            associatedWith: 'Self Training',
-            link: ''
-        }
+        },
+        status: 'Done'
     },
     {
         name: 'Nour Program',
@@ -134,6 +143,7 @@ export const ProjectsData = [
         association: {
             associatedWith: 'Freelance',
             link: ''
-        }
+        },
+        status: 'Done'
     },
 ];

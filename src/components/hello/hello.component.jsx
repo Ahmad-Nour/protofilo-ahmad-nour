@@ -23,14 +23,20 @@ const Hello = () => {
                     <a href="mailto:youremail@gmail.com"><FaGoogle /></a>
                     <a href="tel:+1234567890"><FaPhone /></a>
                 </div>
-                <div>
-                    I like to read your messages, if you have any
+                <div className='formContainer'>
+                    <p className='messageText'>
+                        Do you have any message, or something you want to ask ?
+                        Fell free to say hello, World! 
+                    </p>
                     <form onSubmit={handleSubmit} className='message-form '>
-                        <input className='message-input' type='email' placeholder='your email' />
+                        <input className='email-input' type='email' placeholder='your email' />
                         <textarea
                             className='message-input'
                             value={message}
                             onChange={e => setMessage(e.target.value)}
+                            placeholder='your message'
+                            rows={3}
+                            cols={6}
                         />
                         <button className='submit-button' type="submit">Send Message</button>
                     </form>

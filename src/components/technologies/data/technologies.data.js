@@ -1,7 +1,7 @@
 export const techImages = [
     {
         name: 'C#',
-        percent:90
+        percent:94
     },
     {
         name: 'Java',

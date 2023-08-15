@@ -12,6 +12,7 @@ import Home from "../home/home.component";
 import Technologies from "../technologies/technologies.component";
 import Projects from "../projects/projects.componesnts";
 import Hello from "../hello/hello.component";
+import './nav-bar.styles.scss';
 
 const NavBar = () => {
     const aboutRef = useRef(null);
@@ -22,14 +23,14 @@ const NavBar = () => {
         <Fragment>
             <NavbarContainer>
                 <LogoContainer>
-                    <span>Ahmad Nour</span>
+                    <h3>Ahmad Nour</h3>
                 </LogoContainer>
                 <NavLinks>
                     <NavLink to="#" onClick={() => aboutRef.current.scrollIntoView()}>About</NavLink>
                     <NavLink to="#" onClick={() => technologiesRef.current.scrollIntoView()}>Technologies</NavLink>
                     <NavLink to="#" onClick={() => projectsRef.current.scrollIntoView()}>Projects</NavLink>
                     {/* <NavLink to='/'>Articles</NavLink> */}
-                    <NavLink  to="#" onClick={() => helloRef.current.scrollIntoView()}>Hello, Ahmad Nour!</NavLink>
+                    <button  className="helloButton" to="#" onClick={() => helloRef.current.scrollIntoView()}>Hello, Ahmad Nour!</button>
                 </NavLinks>
             </NavbarContainer>
             <Outlet />
