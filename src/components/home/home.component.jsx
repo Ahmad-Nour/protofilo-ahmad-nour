@@ -11,12 +11,14 @@ const Home = () => {
             <div className="homeContainer">
                 <div className="textContainer">
                     <h1>Wahoooo!</h1>
-                    <h1>Ahmad Nour Al-Sabaggh <Link to="home/hello">here</Link></h1>
+                    <h1>Ahmad Nour Al-Sabaggh <Link >here</Link></h1>
                 </div>
                 <div className="imageContainer">
                     <img src={programmerGif} alt="Programmer Gif" className="programmerImage" />
                 </div>
             </div>
+
+            
         </Fragment>
     );
 };

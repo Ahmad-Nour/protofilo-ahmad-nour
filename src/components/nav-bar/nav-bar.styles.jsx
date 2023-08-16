@@ -16,6 +16,7 @@ export const LogoContainer = styled(Link)`
   color:#6E07F3;
 `;
 
+
 export const NavLinks = styled.div`
   width: 50%;
   height: 100%;
@@ -25,6 +26,6 @@ export const NavLinks = styled.div`
 `;
 
 export const NavLink = styled(Link)`
-  padding: 10px 15px;
+  padding: 10px 10px;
   cursor: pointer;
 `;
