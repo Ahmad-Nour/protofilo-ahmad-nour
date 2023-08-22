@@ -1,11 +1,55 @@
 .aboutContainer {
-    background-color: #6E07F3;
     height: 50vh;
-}
+    background-color: #6E07F3;
 
-.textAboutContainer {
-    margin: 5px 150px;
-    padding: 40px;
-    text-align: center;
-    color: white;
+    @media (max-width: 768px) {
+        height: auto;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .textAboutContainer {
+        margin: 5px;
+        padding: 40px;
+        opacity: 0;
+        animation: slideUp 1s 0.5s forwards;
+
+        @media (max-width: 768px) {
+            margin: 10px;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #fff;
+        }
+
+        p {
+            color: #fff;
+
+            @media (max-width: 768px) {
+                font-size: 14px;
+            }
+        }
+    }
+
+    @keyframes slideUp {
+        from {
+            transform: translateY(20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
 }

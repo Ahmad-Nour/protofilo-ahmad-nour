@@ -1,22 +1,53 @@
-.homeContainer {
+/* Desktop styles */ 
+
+@media (min-width: 768px) {
+
+  .homeContainer {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
   }
-  
-  .imageContainer {
+
+  .imageContainer { 
     width: 40%;
     padding: 0;
   }
-  
+
   .programmerImage {
-    width: 80%; 
-    height: 90%;
+    width: 80%;
+    height: 90%; 
   }
-  
+
   .textContainer {
     padding-top: 70px;
     width: 60%;
     text-align: center;
     color: #6E07F3;
-    font-weight: semi-bold; 
+    font-weight: semi-bold;
   }
+
+}
+
+/* Mobile styles */
+
+@media (max-width: 767px) {
+
+  .homeContainer {
+    flex-direction: column;
+  }
+
+  .textContainer {
+    padding: 20px 0; 
+    align-items: center;
+    margin-left: 25px;
+  }
+
+  .imageContainer {
+    width: 100%;
+  }
+
+  .programmerImage {
+    width: 100%;
+    height: auto;
+  }
+
+}

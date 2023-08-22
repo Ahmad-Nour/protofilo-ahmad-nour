@@ -8,7 +8,7 @@ export const NavbarContainer = styled.div`
   justify-content: space-between;
   margin-bottom: 25px;
   position:relative;
-  background-color:white;
+  background-color:white;  
 `;
 
 export const LogoContainer = styled(Link)`
@@ -23,9 +23,15 @@ export const NavLinks = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  @media (max-width: 768px) { 
+    display: none;
+  }
 `;
 
 export const NavLink = styled(Link)`
   padding: 10px 10px;
   cursor: pointer;
+  @media (max-width: 768px) { 
+    display: block;
+  }
 `;
