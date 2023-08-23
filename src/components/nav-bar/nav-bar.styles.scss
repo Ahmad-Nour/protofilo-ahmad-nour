@@ -1,0 +1,11 @@
+.NavLinks {
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
+
+.NavLink {
+    @media (max-width: 768px) {
+        display: block;
+      }
+}
