@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.6ff7ab84.css",
-    "main.js": "/static/js/main.45ca0038.js",
-    "static/js/651.8815f184.chunk.js": "/static/js/651.8815f184.chunk.js",
-    "static/media/computer_dance.gif": "/static/media/computer_dance.3074ad7150a0b9355de6.gif",
-    "static/media/hello.gif": "/static/media/hello.b1c612f8741a5904515b.gif",
-    "static/media/reactCloths.jpg": "/static/media/reactCloths.12cf699742c128ad7749.jpg",
-    "static/media/shop.jpg": "/static/media/shop.91073a457f97e01dc8b4.jpg",
-    "static/media/monsterCatImage.jpg": "/static/media/monsterCatImage.82b93a2b4a634e40ab07.jpg",
-    "static/media/syMedicine.jpg": "/static/media/syMedicine.aa8e49d10afa9274c6ec.jpg",
-    "index.html": "/index.html",
-    "main.6ff7ab84.css.map": "/static/css/main.6ff7ab84.css.map",
-    "main.45ca0038.js.map": "/static/js/main.45ca0038.js.map",
-    "651.8815f184.chunk.js.map": "/static/js/651.8815f184.chunk.js.map"
+    "main.css": "/protofilo-ahmad-nour/static/css/main.6ff7ab84.css",
+    "main.js": "/protofilo-ahmad-nour/static/js/main.d751f864.js",
+    "static/js/651.8815f184.chunk.js": "/protofilo-ahmad-nour/static/js/651.8815f184.chunk.js",
+    "static/media/computer_dance.gif": "/protofilo-ahmad-nour/static/media/computer_dance.3074ad7150a0b9355de6.gif",
+    "static/media/hello.gif": "/protofilo-ahmad-nour/static/media/hello.b1c612f8741a5904515b.gif",
+    "static/media/reactCloths.jpg": "/protofilo-ahmad-nour/static/media/reactCloths.12cf699742c128ad7749.jpg",
+    "static/media/shop.jpg": "/protofilo-ahmad-nour/static/media/shop.91073a457f97e01dc8b4.jpg",
+    "static/media/monsterCatImage.jpg": "/protofilo-ahmad-nour/static/media/monsterCatImage.82b93a2b4a634e40ab07.jpg",
+    "static/media/syMedicine.jpg": "/protofilo-ahmad-nour/static/media/syMedicine.aa8e49d10afa9274c6ec.jpg",
+    "index.html": "/protofilo-ahmad-nour/index.html",
+    "main.6ff7ab84.css.map": "/protofilo-ahmad-nour/static/css/main.6ff7ab84.css.map",
+    "main.d751f864.js.map": "/protofilo-ahmad-nour/static/js/main.d751f864.js.map",
+    "651.8815f184.chunk.js.map": "/protofilo-ahmad-nour/static/js/651.8815f184.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6ff7ab84.css",
-    "static/js/main.45ca0038.js"
+    "static/js/main.d751f864.js"
   ]
 }
