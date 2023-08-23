@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ahmad-nour/static/css/main.6ff7ab84.css",
+    "main.js": "/ahmad-nour/static/js/main.c049e9b2.js",
+    "static/js/787.78625c4d.chunk.js": "/ahmad-nour/static/js/787.78625c4d.chunk.js",
+    "static/media/computer_dance.gif": "/ahmad-nour/static/media/computer_dance.3074ad7150a0b9355de6.gif",
+    "static/media/hello.gif": "/ahmad-nour/static/media/hello.b1c612f8741a5904515b.gif",
+    "static/media/reactCloths.jpg": "/ahmad-nour/static/media/reactCloths.12cf699742c128ad7749.jpg",
+    "static/media/shop.jpg": "/ahmad-nour/static/media/shop.91073a457f97e01dc8b4.jpg",
+    "static/media/monsterCatImage.jpg": "/ahmad-nour/static/media/monsterCatImage.82b93a2b4a634e40ab07.jpg",
+    "static/media/syMedicine.jpg": "/ahmad-nour/static/media/syMedicine.aa8e49d10afa9274c6ec.jpg",
+    "index.html": "/ahmad-nour/index.html",
+    "main.6ff7ab84.css.map": "/ahmad-nour/static/css/main.6ff7ab84.css.map",
+    "main.c049e9b2.js.map": "/ahmad-nour/static/js/main.c049e9b2.js.map",
+    "787.78625c4d.chunk.js.map": "/ahmad-nour/static/js/787.78625c4d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ff7ab84.css",
+    "static/js/main.c049e9b2.js"
+  ]
+}
