@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/protofilo-ahmad-nour/static/css/main.6ff7ab84.css",
-    "main.js": "/protofilo-ahmad-nour/static/js/main.6e7ae49e.js",
-    "static/js/787.78625c4d.chunk.js": "/protofilo-ahmad-nour/static/js/787.78625c4d.chunk.js",
+    "main.js": "/protofilo-ahmad-nour/static/js/main.88b2eb33.js",
+    "static/js/651.8815f184.chunk.js": "/protofilo-ahmad-nour/static/js/651.8815f184.chunk.js",
     "static/media/computer_dance.gif": "/protofilo-ahmad-nour/static/media/computer_dance.3074ad7150a0b9355de6.gif",
     "static/media/hello.gif": "/protofilo-ahmad-nour/static/media/hello.b1c612f8741a5904515b.gif",
     "static/media/reactCloths.jpg": "/protofilo-ahmad-nour/static/media/reactCloths.12cf699742c128ad7749.jpg",
@@ -11,11 +11,11 @@
     "static/media/syMedicine.jpg": "/protofilo-ahmad-nour/static/media/syMedicine.aa8e49d10afa9274c6ec.jpg",
     "index.html": "/protofilo-ahmad-nour/index.html",
     "main.6ff7ab84.css.map": "/protofilo-ahmad-nour/static/css/main.6ff7ab84.css.map",
-    "main.6e7ae49e.js.map": "/protofilo-ahmad-nour/static/js/main.6e7ae49e.js.map",
-    "787.78625c4d.chunk.js.map": "/protofilo-ahmad-nour/static/js/787.78625c4d.chunk.js.map"
+    "main.88b2eb33.js.map": "/protofilo-ahmad-nour/static/js/main.88b2eb33.js.map",
+    "651.8815f184.chunk.js.map": "/protofilo-ahmad-nour/static/js/651.8815f184.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6ff7ab84.css",
-    "static/js/main.6e7ae49e.js"
+    "static/js/main.88b2eb33.js"
   ]
 }
